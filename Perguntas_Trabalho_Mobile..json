@@ -1,0 +1,694 @@
+{
+    "Loops de Repetição": {
+        "Fácil": [
+            {
+                "pergunta": "Qual loop repete um bloco de código um número definido de vezes?",
+                "opcoes": [
+                    "for",
+                    "if",
+                    "switch",
+                    "break",
+                    "case"
+                ],
+                "resposta": "for"
+            },
+            {
+                "pergunta": "Qual palavra-chave interrompe um loop imediatamente?",
+                "opcoes": [
+                    "break",
+                    "continue",
+                    "return",
+                    "next",
+                    "stop"
+                ],
+                "resposta": "break"
+            },
+            {
+                "pergunta": "Qual loop primeiro executa o bloco e depois verifica a condição?",
+                "opcoes": [
+                    "do...while",
+                    "while",
+                    "for",
+                    "if",
+                    "switch"
+                ],
+                "resposta": "do...while"
+            },
+            {
+                "pergunta": "Qual loop é mais indicado quando o número de repetições não é conhecido?",
+                "opcoes": [
+                    "while",
+                    "for",
+                    "case",
+                    "switch",
+                    "goto"
+                ],
+                "resposta": "while"
+            },
+            {
+                "pergunta": "Qual palavra-chave pula para a próxima iteração do loop?",
+                "opcoes": [
+                    "continue",
+                    "break",
+                    "return",
+                    "stop",
+                    "exit"
+                ],
+                "resposta": "continue"
+            }
+        ],
+        "Médio": [
+            {
+                "pergunta": "O que este código imprime? for(let i=0;i<3;i++){ console.log(i); }",
+                "opcoes": [
+                    "0 1 2",
+                    "1 2 3",
+                    "0 1 2 3",
+                    "1 2",
+                    "2 3"
+                ],
+                "resposta": "0 1 2"
+            },
+            {
+                "pergunta": "Em um loop for, onde é geralmente incrementada a variável de controle?",
+                "opcoes": [
+                    "No terceiro argumento",
+                    "No primeiro argumento",
+                    "No corpo do loop",
+                    "No segundo argumento",
+                    "Não é necessário"
+                ],
+                "resposta": "No terceiro argumento"
+            },
+            {
+                "pergunta": "Qual é a saída? let i=0; while(i<2){ console.log(i); i++; }",
+                "opcoes": [
+                    "0 1",
+                    "1 2",
+                    "0 1 2",
+                    "1",
+                    "2"
+                ],
+                "resposta": "0 1"
+            },
+            {
+                "pergunta": "Para qual propósito usamos o loop for...in?",
+                "opcoes": [
+                    "Iterar sobre propriedades de um objeto",
+                    "Iterar arrays somente",
+                    "Executar uma função",
+                    "Comparar valores",
+                    "Declarar variáveis"
+                ],
+                "resposta": "Iterar sobre propriedades de um objeto"
+            },
+            {
+                "pergunta": "O loop for...of é usado para:",
+                "opcoes": [
+                    "Iterar elementos iteráveis",
+                    "Criar funções",
+                    "Executar switch",
+                    "Declarar variáveis",
+                    "Executar if"
+                ],
+                "resposta": "Iterar elementos iteráveis"
+            }
+        ],
+        "Difícil": [
+            {
+                "pergunta": "Qual é a diferença entre for...in e for...of em arrays?",
+                "opcoes": [
+                    "for...in itera índices, for...of itera valores",
+                    "Ambos iteram valores",
+                    "Ambos iteram índices",
+                    "for...in não existe",
+                    "for...of não existe"
+                ],
+                "resposta": "for...in itera índices, for...of itera valores"
+            },
+            {
+                "pergunta": "Qual loop é mais suscetível a criar um loop infinito?",
+                "opcoes": [
+                    "while",
+                    "for",
+                    "for...of",
+                    "for...in",
+                    "switch"
+                ],
+                "resposta": "while"
+            },
+            {
+                "pergunta": "Como interromper todas as iterações de um loop externo dentro de um loop aninhado?",
+                "opcoes": [
+                    "Usar break com label",
+                    "Usar continue",
+                    "Usar stop",
+                    "Usar exit",
+                    "Não é possível"
+                ],
+                "resposta": "Usar break com label"
+            },
+            {
+                "pergunta": "Qual instrução é usada para pular para a próxima iteração em loops aninhados?",
+                "opcoes": [
+                    "continue",
+                    "break",
+                    "return",
+                    "pass",
+                    "skip"
+                ],
+                "resposta": "continue"
+            },
+            {
+                "pergunta": "Qual estrutura de loop não existe em JavaScript?",
+                "opcoes": [
+                    "foreach",
+                    "for",
+                    "while",
+                    "do...while",
+                    "for...of"
+                ],
+                "resposta": "foreach"
+            }
+        ]
+    },
+    "Declaração de Variáveis": {
+        "Fácil": [
+            {
+                "pergunta": "Qual palavra-chave é usada para declarar uma variável mutável?",
+                "opcoes": [
+                    "let",
+                    "const",
+                    "var",
+                    "static",
+                    "final"
+                ],
+                "resposta": "let"
+            },
+            {
+                "pergunta": "Qual palavra-chave cria uma variável constante?",
+                "opcoes": [
+                    "const",
+                    "let",
+                    "var",
+                    "final",
+                    "static"
+                ],
+                "resposta": "const"
+            },
+            {
+                "pergunta": "Qual declaração era mais comum antes do ES6?",
+                "opcoes": [
+                    "var",
+                    "let",
+                    "const",
+                    "final",
+                    "static"
+                ],
+                "resposta": "var"
+            },
+            {
+                "pergunta": "Qual nome de variável é válido?",
+                "opcoes": [
+                    "myVar",
+                    "2var",
+                    "var-name",
+                    "var name",
+                    "var.name"
+                ],
+                "resposta": "myVar"
+            },
+            {
+                "pergunta": "Qual é o escopo de uma variável declarada com var?",
+                "opcoes": [
+                    "Função",
+                    "Bloco",
+                    "Global apenas",
+                    "Loop apenas",
+                    "Arquivo"
+                ],
+                "resposta": "Função"
+            }
+        ],
+        "Médio": [
+            {
+                "pergunta": "Qual é o escopo de let?",
+                "opcoes": [
+                    "Bloco",
+                    "Função",
+                    "Global",
+                    "Arquivo",
+                    "Módulo"
+                ],
+                "resposta": "Bloco"
+            },
+            {
+                "pergunta": "Qual palavra-chave permite redeclaração no mesmo escopo?",
+                "opcoes": [
+                    "var",
+                    "let",
+                    "const",
+                    "final",
+                    "static"
+                ],
+                "resposta": "var"
+            },
+            {
+                "pergunta": "O que ocorre se tentar reatribuir uma const?",
+                "opcoes": [
+                    "Erro",
+                    "Aviso",
+                    "Ignorado",
+                    "Executa normalmente",
+                    "Loop infinito"
+                ],
+                "resposta": "Erro"
+            },
+            {
+                "pergunta": "Qual declaração é hoisted com valor undefined?",
+                "opcoes": [
+                    "var",
+                    "let",
+                    "const",
+                    "static",
+                    "final"
+                ],
+                "resposta": "var"
+            },
+            {
+                "pergunta": "Qual destas não é uma palavra reservada?",
+                "opcoes": [
+                    "myVar",
+                    "var",
+                    "const",
+                    "let",
+                    "class"
+                ],
+                "resposta": "myVar"
+            }
+        ],
+        "Difícil": [
+            {
+                "pergunta": "Qual erro ocorre se acessar let antes da declaração?",
+                "opcoes": [
+                    "ReferenceError",
+                    "TypeError",
+                    "SyntaxError",
+                    "RangeError",
+                    "EvalError"
+                ],
+                "resposta": "ReferenceError"
+            },
+            {
+                "pergunta": "Qual declaração é restrita a bloco?",
+                "opcoes": [
+                    "let",
+                    "var",
+                    "function",
+                    "static",
+                    "final"
+                ],
+                "resposta": "let"
+            },
+            {
+                "pergunta": "Qual dessas palavras-chave não cria variável?",
+                "opcoes": [
+                    "function",
+                    "let",
+                    "var",
+                    "const",
+                    "none"
+                ],
+                "resposta": "function"
+            },
+            {
+                "pergunta": "Qual declaração evita hoisting?",
+                "opcoes": [
+                    "let",
+                    "var",
+                    "function",
+                    "eval",
+                    "with"
+                ],
+                "resposta": "let"
+            },
+            {
+                "pergunta": "Qual declaração é mais indicada para evitar bugs de escopo?",
+                "opcoes": [
+                    "let",
+                    "var",
+                    "goto",
+                    "static",
+                    "global"
+                ],
+                "resposta": "let"
+            }
+        ]
+    },
+    "Funções": {
+        "Fácil": [
+            {
+                "pergunta": "Qual palavra-chave é usada para declarar uma função?",
+                "opcoes": [
+                    "function",
+                    "func",
+                    "def",
+                    "method",
+                    "declare"
+                ],
+                "resposta": "function"
+            },
+            {
+                "pergunta": "Como chamamos uma função?",
+                "opcoes": [
+                    "nome()",
+                    "chamar()",
+                    "executar()",
+                    "fazer()",
+                    "criar()"
+                ],
+                "resposta": "nome()"
+            },
+            {
+                "pergunta": "O que uma função pode retornar?",
+                "opcoes": [
+                    "Qualquer valor",
+                    "Apenas números",
+                    "Apenas strings",
+                    "Apenas booleanos",
+                    "Nada"
+                ],
+                "resposta": "Qualquer valor"
+            },
+            {
+                "pergunta": "Como passamos informações para uma função?",
+                "opcoes": [
+                    "Parâmetros",
+                    "Constantes",
+                    "Loops",
+                    "Switch",
+                    "Break"
+                ],
+                "resposta": "Parâmetros"
+            },
+            {
+                "pergunta": "Qual é o valor retornado por padrão?",
+                "opcoes": [
+                    "undefined",
+                    "0",
+                    "null",
+                    "false",
+                    "true"
+                ],
+                "resposta": "undefined"
+            }
+        ],
+        "Médio": [
+            {
+                "pergunta": "Qual é o nome para uma função sem nome?",
+                "opcoes": [
+                    "Anônima",
+                    "Literal",
+                    "Pura",
+                    "Arrow",
+                    "Global"
+                ],
+                "resposta": "Anônima"
+            },
+            {
+                "pergunta": "O que faz uma função callback?",
+                "opcoes": [
+                    "É passada como argumento",
+                    "Executa sozinha",
+                    "Cria variáveis",
+                    "Declara loops",
+                    "Executa break"
+                ],
+                "resposta": "É passada como argumento"
+            },
+            {
+                "pergunta": "Qual sintaxe é usada para arrow function?",
+                "opcoes": [
+                    "()=>{}",
+                    "function=>{}",
+                    "func->{}",
+                    "def->{}",
+                    "method=>{}"
+                ],
+                "resposta": "()=>{}"
+            },
+            {
+                "pergunta": "Qual o escopo de uma variável declarada dentro de uma função?",
+                "opcoes": [
+                    "Local",
+                    "Global",
+                    "Arquivo",
+                    "Bloco",
+                    "Módulo"
+                ],
+                "resposta": "Local"
+            },
+            {
+                "pergunta": "Qual palavra encerra a execução de uma função?",
+                "opcoes": [
+                    "return",
+                    "break",
+                    "exit",
+                    "stop",
+                    "close"
+                ],
+                "resposta": "return"
+            }
+        ],
+        "Difícil": [
+            {
+                "pergunta": "Qual é o comportamento de hoisting para funções declaradas?",
+                "opcoes": [
+                    "É içada",
+                    "Não é içada",
+                    "Depende do navegador",
+                    "Cria erro",
+                    "Ignora escopo"
+                ],
+                "resposta": "É içada"
+            },
+            {
+                "pergunta": "Qual é o 'this' dentro de uma arrow function?",
+                "opcoes": [
+                    "Lexical",
+                    "Global",
+                    "Window",
+                    "Novo objeto",
+                    "Function"
+                ],
+                "resposta": "Lexical"
+            },
+            {
+                "pergunta": "Qual método chama uma função com contexto específico?",
+                "opcoes": [
+                    "call",
+                    "bind",
+                    "link",
+                    "execute",
+                    "scope"
+                ],
+                "resposta": "call"
+            },
+            {
+                "pergunta": "Qual método cria nova função com 'this' fixo?",
+                "opcoes": [
+                    "bind",
+                    "call",
+                    "apply",
+                    "fix",
+                    "scope"
+                ],
+                "resposta": "bind"
+            },
+            {
+                "pergunta": "Qual método executa uma função com lista de argumentos?",
+                "opcoes": [
+                    "apply",
+                    "call",
+                    "bind",
+                    "execute",
+                    "run"
+                ],
+                "resposta": "apply"
+            }
+        ]
+    },
+    "Condicionais": {
+        "Fácil": [
+            {
+                "pergunta": "Qual palavra inicia uma condicional?",
+                "opcoes": [
+                    "if",
+                    "switch",
+                    "case",
+                    "else",
+                    "break"
+                ],
+                "resposta": "if"
+            },
+            {
+                "pergunta": "Qual palavra executa bloco alternativo?",
+                "opcoes": [
+                    "else",
+                    "case",
+                    "switch",
+                    "break",
+                    "continue"
+                ],
+                "resposta": "else"
+            },
+            {
+                "pergunta": "Qual operador compara igualdade de valor?",
+                "opcoes": [
+                    "==",
+                    "=",
+                    "===",
+                    "!=",
+                    "!=="
+                ],
+                "resposta": "=="
+            },
+            {
+                "pergunta": "Qual operador compara valor e tipo?",
+                "opcoes": [
+                    "===",
+                    "==",
+                    "!=",
+                    "=",
+                    "=>"
+                ],
+                "resposta": "==="
+            },
+            {
+                "pergunta": "Qual estrutura avalia múltiplos casos?",
+                "opcoes": [
+                    "switch",
+                    "if",
+                    "else",
+                    "loop",
+                    "break"
+                ],
+                "resposta": "switch"
+            }
+        ],
+        "Médio": [
+            {
+                "pergunta": "Qual operador é usado para OU lógico?",
+                "opcoes": [
+                    "||",
+                    "&&",
+                    "!",
+                    "&",
+                    "|"
+                ],
+                "resposta": "||"
+            },
+            {
+                "pergunta": "Qual operador é usado para E lógico?",
+                "opcoes": [
+                    "&&",
+                    "||",
+                    "!",
+                    "|",
+                    "&"
+                ],
+                "resposta": "&&"
+            },
+            {
+                "pergunta": "Qual palavra termina um caso em switch?",
+                "opcoes": [
+                    "break",
+                    "stop",
+                    "exit",
+                    "continue",
+                    "return"
+                ],
+                "resposta": "break"
+            },
+            {
+                "pergunta": "Qual valor é avaliado como falso?",
+                "opcoes": [
+                    "0",
+                    "1",
+                    "'0'",
+                    "[]",
+                    "{}"
+                ],
+                "resposta": "0"
+            },
+            {
+                "pergunta": "Qual operador inverte o valor lógico?",
+                "opcoes": [
+                    "!",
+                    "~",
+                    "-",
+                    "+",
+                    "?:"
+                ],
+                "resposta": "!"
+            }
+        ],
+        "Difícil": [
+            {
+                "pergunta": "Qual resultado de '0 == false'?",
+                "opcoes": [
+                    "true",
+                    "false",
+                    "NaN",
+                    "undefined",
+                    "null"
+                ],
+                "resposta": "true"
+            },
+            {
+                "pergunta": "Qual resultado de '0 === false'?",
+                "opcoes": [
+                    "false",
+                    "true",
+                    "undefined",
+                    "null",
+                    "NaN"
+                ],
+                "resposta": "false"
+            },
+            {
+                "pergunta": "Qual operador ternário é usado para condição?",
+                "opcoes": [
+                    "? :",
+                    "&&",
+                    "||",
+                    "==",
+                    "==="
+                ],
+                "resposta": "? :"
+            },
+            {
+                "pergunta": "Qual palavra é opcional em switch?",
+                "opcoes": [
+                    "default",
+                    "case",
+                    "switch",
+                    "break",
+                    "if"
+                ],
+                "resposta": "default"
+            },
+            {
+                "pergunta": "Qual valor é avaliado como verdadeiro?",
+                "opcoes": [
+                    "'0'",
+                    "0",
+                    "false",
+                    "null",
+                    "undefined"
+                ],
+                "resposta": "'0'"
+            }
+        ]
+    }
+}
