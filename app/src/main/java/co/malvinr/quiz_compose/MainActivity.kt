@@ -131,7 +131,7 @@ fun TakeQuizPortrait(
                     }
                 },
                 onFinishClick = {
-                    Toast.makeText(context, "akhir halaman", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(context, "Finalizado!", Toast.LENGTH_SHORT).show()
                 },
                 showPreviousButton = currentQuizPage > 0,
                 showNextButton = currentQuizPage < lastQuizPage,
